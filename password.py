@@ -6,4 +6,4 @@ def generate_password(length=12):
     return ''.join(random.choice(chars) for _ in range(length))
 
 # 示例
-print(generate_password(16))  # 输出随机1
+print(generate_password(16))  # 输出随机2
